@@ -1,0 +1,21 @@
+.activities .first-des .des-text a {
+    text-decoration: none;
+    /* font-size: 1rem; */
+    /* margin: 5rem; */
+    font-weight: 900;
+    color: rgb(245, 5, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(212, 201, 201, 0.5);
+    padding: 5px;
+    border-radius: 25px;
+
+}
+.activities .first-des .des-text i{
+    color: red;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.activities .first-des .des-text a:hover{
+    color: rgb(32, 4, 211);
+    font-size: large;
+}

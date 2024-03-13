@@ -1,0 +1,22 @@
+.home-hero{
+ display: flex;
+ justify-content: center;
+}
+#home-hero-id{
+    color: red;
+    top: 25rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    /* justify-content: center; */
+    align-items: center;
+    justify-self: center;
+    /* position: fixed; */
+    /* margin: 0 30rem; */
+    /* justify-content: end; */
+}
+@media screen and (max-width : 1080px) {
+    #home-hero-id{
+        top: 15rem;
+    }
+}

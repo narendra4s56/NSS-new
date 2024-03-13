@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#About-main-id .whatwedo{
+    /* background-image: linear-gradient(to right bottom, #2262be, #008acd, #00a7af, #2bbc7b, #b0c658); */
+    /* height: 150vh; */
+   text-align: left;
+   h5{
+    font-size: 1.2rem;
+   }
+}
+#About-main-id .about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#About-main-id .about-content h1{
+    color: #222;
+    text-decoration: underline;
+    text-decoration-color: #2c0191;
+    padding: .5rem 4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    background-color: antiquewhite;
+    width: fit-content;
+    border-radius: 30px;
+}
+#About-main-id .about-content{
+    padding: 8rem 10rem 0 10rem;
+}
+#About-main-id .about-content p{
+    font-size: 1rem;
+    padding: 40px 0 40px 0;
+}
+@media screen and (max-width:800px) {
+    #About-main-id .about-content{
+        padding: 8rem 3rem 0 3rem;  
+    }
+    #About-main-id .about-content h1{
+        font-size: 1.9rem;
+        padding: .5rem 3rem;
+    }
+}

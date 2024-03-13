@@ -1,0 +1,65 @@
+.activities{
+    margin: 3rem;
+}
+.destination{
+    margin: 4rem 6rem;
+}
+.destination h1{
+   font-size: 3rem;
+}
+.first-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.des-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.des-text h2{
+    padding-bottom: 1rem;
+}
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+.image img{
+    width: 49%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    /* box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19); */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+@media screen and (max-width : 850px) {
+    .destination{
+        margin: 4rem 2rem;
+    }
+    .first-des{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .des-text{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+    .image img{
+        height: 250px;
+    }
+}
