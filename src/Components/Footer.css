@@ -3,7 +3,7 @@
     background-color: rgb(68, 64, 64);
     color: white;
     height: 300px;
-    width: 100%;
+    width: 100vw;
     justify-content: space-around;
     margin: 0%;
 }
